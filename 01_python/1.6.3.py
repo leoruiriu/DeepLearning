@@ -1,0 +1,8 @@
+# 画像の表示
+
+import matplotlib.pyplot as plt
+from matplotlib.image import imread
+
+img = imread("./image/me.jpg") # 画像の読み込み
+plt.imshow(img)
+plt.show()
